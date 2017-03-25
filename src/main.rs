@@ -1,4 +1,5 @@
+mod file;
 fn main() {
-    println!("Algorithms in RUST");
-    println!("simple program");
+    file::file_input::run();
+
 }
